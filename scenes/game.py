@@ -5,14 +5,14 @@ from scenes.base import BaseScene
 from settings import Settings
 
 
-class MenuScene(BaseScene):
+class GameScene(BaseScene):
     PROCESS_ESCAPE = False
 
     def __init__(self):
         self.hello_text = Text(
             x=Settings.WINDOW_WIDTH // 2 - 315,
             y=Settings.WINDOW_HEIGHT // 2 - 30,
-            text='Hello, application',
+            text='Game',
             size=58,
             color=pygame.Color('yellow')
         )

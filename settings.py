@@ -17,4 +17,4 @@ class Settings:
 
     @staticmethod
     def set_game_scene():
-        Settings.set_scene(1)
+        Settings.set_scene(0)

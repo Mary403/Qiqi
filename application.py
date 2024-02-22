@@ -1,7 +1,6 @@
 import pygame
 
-from scenes.menu import MenuScene
-from scenes.pause import PauseScene
+from scenes.game import GameScene
 from settings import Settings
 
 
@@ -10,8 +9,7 @@ class Application:
         self.screen = screen
         self.game_over = False
         self.scenes = [
-            MenuScene(),
-            PauseScene()
+            GameScene(),
         ]
 
     def scene_activate(self):
