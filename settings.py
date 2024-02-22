@@ -2,8 +2,12 @@ import pygame
 
 
 class Settings:
-    WINDOW_WIDTH = 800
-    WINDOW_HEIGHT = 600
+    WINDOW_WIDTH = 1366
+    WINDOW_HEIGHT = 768
+    # 1280 × 1024
+    # 1024 × 768
+    # 1920×1080
+    # 1366 × 768
     MAX_COLLISION_COUNT = 5
     MAX_WAIT_SECONDS = 3
     BACKGROUND_COLOR = pygame.Color('black')
